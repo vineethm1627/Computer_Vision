@@ -1,5 +1,11 @@
 Step by step installation process to set up the Development environment.
 
+--> install git
+	https://git-scm.com/downloads
+
+--> install anaconda
+	https://www.anaconda.com/products/individual
+	
 
 --> first check whether anaconda is installed or not.
 
