@@ -1,0 +1,43 @@
+Step by step installation process to set up the Development environment.
+
+
+--> first check whether anaconda is installed or not.
+
+	conda -V
+
+--> check whether python is installed or not.
+
+	python --version
+
+--> Creating a new virtual environment
+
+	conda install pip
+	pip install py
+
+	conda create --name opencv-test
+	then click enter and when prompted write  y
+
+--> Activating a virtual env
+
+	conda activate opencv-test
+
+	Note:
+	before -->  (base) C:\Users\Vineeth M>conda activate opencv-test
+	after  -->  (opencv-test) C:\Users\Vineeth M>
+
+--> Installing the necessary libraries.
+
+1) Option-1:
+	conda install -c conda-forge opencv
+	conda install -c conda-forge dlib
+	conda install -c conda-forge pytesseract
+	conda install matplotlib
+
+2) Option-2:
+	pip install opencv-python
+	pip install opencv-contrib-python
+	pip install dlib
+
+
+	
+	
